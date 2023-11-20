@@ -3,6 +3,7 @@
     private static void Main(object[] args)
     {
         {
+        Console.WriteLine("Идет загрузка...");
         Console.WriteLine("Здравствуйте!");
         Console.WriteLine("Я бот Альфред. Давай познакомимся");
         }
@@ -21,7 +22,7 @@
         Console.WriteLine($"Мы отправили вам смс с кодом на номер {telef}");
         }
 
-            Console.Write("Сколько тебе лет? ");        // нужно установить ограничения
+            Console.Write("Сколько вам лет? ");        // нужно установить ограничения
         int age = Convert.ToInt32(Console.ReadLine());
         if (age < 100 && age > 0)
         { 
@@ -29,10 +30,10 @@
         }
         else
         {
-        Console.WriteLine($"пиздишь сука!!!");
+        Console.WriteLine($"пиздишь сука!");
         }
         
-        Console.Write("Сколько тво рост? ");             // нужно установить ограничения
+        Console.Write("Сколько твой рост? ");             // нужно установить ограничения
         double height = Convert.ToDouble(Console.ReadLine());
         
         Console.Write("Сколько твой вес? ");               // нужно установить ограничения
@@ -44,7 +45,7 @@
         }
         else
         {
-        Console.WriteLine($" Не пытайся меня наебать!!");
+        Console.WriteLine($"Не пытайся меня обмануть!!");
         }
         
         Console.WriteLine($"Имя: {name}  Возраст: {age}  Рост: {height}cм Вес: {mass}кг  $");
